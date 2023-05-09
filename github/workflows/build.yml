@@ -1,0 +1,6 @@
+jobs:
+  fist-jobs:
+    runs-on: windows latest
+    steps:
+      - run: node --version
+      - run: npm --version
